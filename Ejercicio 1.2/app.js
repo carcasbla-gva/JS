@@ -1,4 +1,5 @@
 // Ejercicio 1.2: Operaciones Básicas 
+
 const base = 10;
 const altura = 5;
 
