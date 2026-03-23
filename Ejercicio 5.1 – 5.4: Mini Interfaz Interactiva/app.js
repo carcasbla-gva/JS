@@ -31,7 +31,6 @@ botonCrear.addEventListener('click', () => {
 
 botonEliminar.addEventListener('click', () => {
     const numero = prompt("¿Qué número de párrafo quieres eliminar?");
-    
     if (numero) {
         const elementoABorrar = document.getElementById("parrafo" + numero);
         
