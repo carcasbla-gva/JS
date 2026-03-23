@@ -18,17 +18,14 @@ botonCrear.addEventListener('click', () => {
     nuevoP.textContent = "Párrafo " + contador + " creado dinámicamente";
     
     nuevoP.id = "parrafo" + contador;
-
     if (contador === 1) {
         nuevoP.style.width = "300px"; 
         nuevoP.style.backgroundColor = "lightgray";
-
         nuevoP.addEventListener('click', () => {
             nuevoP.style.backgroundColor = "salmon";
             nuevoP.style.color = "white";
         });
     }
-
     contenedor.appendChild(nuevoP);
 });
 
