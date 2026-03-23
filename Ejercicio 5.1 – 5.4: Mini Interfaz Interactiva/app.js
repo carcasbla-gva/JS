@@ -1,3 +1,5 @@
+// Ejercicio 5.1 - 5.4 Mini Interfaz
+
 const botonColor = document.querySelector('#cambiarColorBtn');
 const botonCrear = document.querySelector('#crearParrafoBtn');
 const botonEliminar = document.querySelector('#eliminarParrafoBtn');
