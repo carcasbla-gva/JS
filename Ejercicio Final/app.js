@@ -5,7 +5,7 @@ class Tarea {
     }
 }
 
-class GestorTareas {
+class ListaDeTareas {
     constructor() {
         this.input = document.querySelector('#nueva-tarea-input');
         this.boton = document.querySelector('#agregar-tarea-btn');
