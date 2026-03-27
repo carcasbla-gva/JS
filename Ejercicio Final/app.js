@@ -35,4 +35,4 @@ class ListaDeTareas {
         }
     }
 }
-const miAplicacion = new GestorTareas();
+const miAplicacion = new ListaDeTareas();
