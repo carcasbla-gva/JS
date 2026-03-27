@@ -5,9 +5,9 @@ const libro = {
     autor: "Antoine de Saint-Exupéry",
     paginas: 96,
 
-mostrarResumen: function() {
+mostrarResumen() {
     console.log(`El libro '${this.titulo}' fue escrito por '${this.autor}' y tiene '${this.paginas}' páginas.`);
 }
-};
+}
 
 libro.mostrarResumen();
